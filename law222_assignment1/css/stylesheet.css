@@ -1,0 +1,64 @@
+.GrayBack{
+    background-color: lightgray;
+}
+
+.Underworld_Back{
+    background-image: url("images/images_WoF/Underworld_Background.png");
+}
+
+.SolidBlack{
+    border-color: black;
+    border-style: solid;
+  }
+
+.horizontaldoubleborder{
+	border-bottom-style: solid;
+	border-top-style: solid;
+}
+
+.verticaldoubleborder{
+	border-left-style: solid;
+	border-right-style: solid;
+}
+
+.lowerborder{
+    border-bottom-style: solid;
+}
+
+.allborders{
+    border-style: solid;
+}
+
+.corrupttext{
+    color:purple;
+}
+
+.crimsontext{
+    color:crimson;
+}
+
+.tinytext{
+    font-size: x-small;
+}
+
+.TextCenter{
+    text-align: center;
+}
+
+.TextLeft{
+    text-align: left;
+}
+
+p, li, a{
+    font-family:'Courier New', Courier, monospace;
+}
+
+h1, h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a:hover{
+    color:crimson;
+}
+
+

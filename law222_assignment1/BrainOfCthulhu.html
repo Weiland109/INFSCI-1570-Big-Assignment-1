@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Brain of Cthulhu</title>
+        <link rel="stylesheet" href="css/stylesheet.css">
+    </head>
+    <body class="GrayBack">
+
+        <header>
+            <h1>Brain of Cthulhu</h1>
+        </header>
+
+        <section>
+            <h2>Background</h2>
+            <p>The Brain of Cthulhu is likely to be the third boss that a player would fight on worlds that contain the <span class="crimsontext">Crimson</span>, following Eye of Cthulhu and Slime King.</p>
+            <p>It is a massive brain surrounded by 20 eyes known as Creepers that protect it.</p>
+            <p>When the boss first spawns in, it is invulnerable. The player must defeat all 20 Creepers before the boss can be attacked directly.</p>
+            <p>Once all Creepers are dead, the brain visually 'opens up' and becomes vulnerable to attack, signalling the start of phase 2.</p>
+            <br>
+            <p>In phase two, the brain will rapidly teleport around and try to ram into the player. It can be held back by attacking it.</p>
+            <p>The brain will create 3 hallucinations of itself in order to try and confuse the player.</p>
+            <p>These hallucinations will close in on the player from other directions. Hallucinations cannot damage the player, and are instead meant to make it harder to locate and attack the actual boss.</p>
+            <p>As the boss loses health, these hallucinations become harder to distinguish from the actual boss.</p>
+        </section>
+
+        <section>
+            <h2>Spawn Mechanics</h2>
+            <p>The Brain of Cthulhu cannot spawn without direct player action. There are 2 ways to achieve this.</p>
+            <p>Breaking 3 Crimson Hearts found inside of the Crimon Biome will cause the boss to spawn.</p>
+            <p>Alternatively, an item known as a Bloody Spine can be created and used in the Crimson to spawn the boss.</p>
+        </section>
+
+        <section>
+            <h2>Boss Stat Table</h2>
+            <table>
+                <tr>
+                    <th class="verticaldoubleborder">Difficulty: </th>
+                    <th class="horizontaldoubleborder">Classic</th>
+                    <th class="horizontaldoubleborder">Expert</th>
+                    <th class="horizontaldoubleborder">Master</th>
+                </tr>
+
+                <tr> <!--Note that these numbers do NOT include the creepers, this is just for the brain itself-->
+                    <th class="verticaldoubleborder">Health: </th>
+                    <th class="allborders">1250</th>
+                    <th class="allborders">2125</th>
+                    <th class="allborders">2709</th>
+                </tr>
+
+                <tr>
+                    <th class="verticaldoubleborder">Attack: </th>
+                    <th class="allborders">30</th>
+                    <th class="allborders">54</th>
+                    <th class="allborders">81</th>
+                </tr>
+
+                <tr>
+                    <th class="verticaldoubleborder">Defense: </th>
+                    <th class="allborders">14</th>
+                    <th class="allborders">14</th>
+                    <th class="allborders">14</th>
+                </tr>
+            </table>
+        </section>
+
+        <!--I'll put a picture of the phase 1 brain here. Clicking will make it turn into phase 2 brain and play a sound.-->
+        <section class="TextCenter"> 
+            <h2 class="TextLeft">Interactive Photo</h2>
+            <button id="ImageButton"><img src="images/images_BoC/Brain_of_Cthulhu_(First_Phase).gif" alt="A gif of the Brain of Cthulhu in Phase 1." id="Boc_P1"></button>
+        </section>
+
+        <section>
+            <h2>Gallery</h2>
+
+            <div class="lowerborder">
+                <p>Photo of a Creeper</p>
+                <img src="images/images_BoC/BoC_Creeper.png" alt="Picture of Creeper Enemy">
+            </div>
+
+            <div class="lowerborder">
+                <p>Photo of a Crimson Heart</p>
+                <img src="images/images_BoC/Crimson_Heart.gif" alt="Picture of Crimson Heart object">
+            </div>
+
+            <div>
+                <p>Photo of a Bloody Spine</p>
+                <img src="images/images_BoC/Bloody_Spine.png" alt="Picture of Bloody Spine item">
+            </div>
+        </section>
+        <script src="javascript/BoC_Javascript.js"></script>
+    </body>
+</html>
